@@ -8,4 +8,20 @@
 
 body {
     height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+        #d161ff
+    );
+}
+
+.clock {
+    height: 150px;
+    width: 550px;
+    border: 2px solid black;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
 }
