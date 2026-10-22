@@ -24,4 +24,29 @@ body {
     top: 50%;
     left: 50%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock div {
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+}
+
+.clock span {
+    font-weight: bolder;
+    font-size: 60px;
+    color: #ffffff;
 }
